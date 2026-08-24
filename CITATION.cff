@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Statistical analysis code for appendiceal goblet cell adenocarcinoma case-definition research in SEER"
+type: software
+version: 1.0.1
+date-released: 2026-08-24
+license: MIT
+repository-code: "https://github.com/wusmall1994-create/appendiceal-gca-seer-analysis-code"
+authors:
+  - given-names: Xiaoxin
+    family-names: Wu
+    affiliation: "Department of Pathology, Longyan First Affiliated Hospital of Fujian Medical University"
+  - given-names: Huadong
+    family-names: Liang
+    affiliation: "Department of Gastroenterology, Longyan First Affiliated Hospital of Fujian Medical University"
+    email: "fjdctorliang@163.com"
+  - given-names: Rongjin
+    family-names: Qiu
+    affiliation: "Department of Gastroenterology, Longyan First Affiliated Hospital of Fujian Medical University"
+  - given-names: Qianqian
+    family-names: Wu
+    affiliation: "Department of Pathology, Longyan First Affiliated Hospital of Fujian Medical University"
