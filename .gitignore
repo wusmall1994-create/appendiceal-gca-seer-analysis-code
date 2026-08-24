@@ -1,0 +1,33 @@
+# Restricted SEER exports and dictionaries
+raw/
+raw data/
+*.dic
+*.sim
+*.slm
+*.si
+*.sl
+
+# Generated analysis and manuscript artifacts
+outputs/
+*.docx
+*.pdf
+*.tif
+*.tiff
+*.png
+*.bmp
+*.svg
+*.xlsx
+
+# Local/editor files
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
