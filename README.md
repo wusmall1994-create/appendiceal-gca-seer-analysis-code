@@ -1,5 +1,7 @@
 # Appendiceal goblet cell adenocarcinoma: SEER analysis code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22082394.svg)](https://doi.org/10.5281/zenodo.22082394)
+
 Statistical analysis code for a registry-methodology study evaluating how nested ICD-O-3 case definitions affect reported incidence, stage distribution, and survival estimates for appendiceal goblet cell adenocarcinoma (GCA).
 
 ## Public-content boundary
@@ -81,6 +83,10 @@ Rscript R/02_joinpoint_figure.R
 
 Joinpoint is developed by the Surveillance Research Program, National Cancer Institute. Users should follow the official software acknowledgement and citation guidance.
 
+## Citation
+
+Please cite release v1.0.1 using the metadata in `CITATION.cff` or the archived version at [doi:10.5281/zenodo.22082394](https://doi.org/10.5281/zenodo.22082394).
+
 ## Licence
 
 The code is released under the MIT License. This licence applies only to the code in this repository and does not alter SEER data-use restrictions or the terms governing NCI Joinpoint software.
@@ -88,4 +94,3 @@ The code is released under the MIT License. This licence applies only to the cod
 ## Reproducibility scope
 
 The repository makes the transformations and statistical models inspectable. Exact numeric reproduction additionally requires authorized access to the same SEER database submission and matching SEER*Stat exports. No raw or processed study data are archived here.
-
