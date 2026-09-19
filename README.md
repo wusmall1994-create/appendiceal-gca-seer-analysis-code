@@ -1,6 +1,6 @@
 # Appendiceal goblet cell adenocarcinoma: SEER analysis code
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22082394.svg)](https://doi.org/10.5281/zenodo.22082394)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22082393.svg)](https://doi.org/10.5281/zenodo.22082393)
 
 Statistical analysis code for a registry-methodology study evaluating how nested ICD-O-3 case definitions affect reported incidence, stage distribution, and survival estimates for appendiceal goblet cell adenocarcinoma (GCA).
 
