@@ -99,7 +99,7 @@ Joinpoint is developed by the Surveillance Research Program, National Cancer Ins
 
 ## Citation
 
-Please cite release v1.0.1 using the metadata in `CITATION.cff` or the archived version at [doi:10.5281/zenodo.22082394](https://doi.org/10.5281/zenodo.22082394).
+Please cite release v1.1.0 using the metadata in `CITATION.cff` or the archived versions at [doi:10.5281/zenodo.22082393](https://doi.org/10.5281/zenodo.22082393) (concept DOI, always resolves to the latest version).
 
 ## Licence
 
