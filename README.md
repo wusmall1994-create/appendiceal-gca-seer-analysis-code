@@ -50,4 +50,4 @@ Historical definitions are analytic alternatives, not pathology adjudication. Fr
 
 ## Citation and license
 
-Released under the MIT license. `CITATION.cff` supplies software citation metadata. The archived code is available through https://doi.org/10.5281/zenodo.22082393.
+Released under the MIT license. `CITATION.cff` supplies software citation metadata. The archived code is available through https://doi.org/10.5281/zenodo.23364051.
