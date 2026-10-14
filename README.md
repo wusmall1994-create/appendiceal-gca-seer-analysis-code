@@ -54,4 +54,4 @@ Historical definitions are analytic alternatives, not pathology adjudication. Fr
 
 ## Citation and license
 
-MIT license is retained. `CITATION.cff` supplies current author and release metadata without contact details. The Zenodo concept record is https://doi.org/10.5281/zenodo.22082393; use the version-specific DOI attached to the v1.2.0 release once archiving completes. Older version DOIs do not identify this release.
+MIT license is retained. `CITATION.cff` supplies current author and release metadata without contact details. The Zenodo concept record is https://doi.org/10.5281/zenodo.22082393; version 1.2.0 is archived at https://doi.org/10.5281/zenodo.23363462. Older version DOIs do not identify this release.
