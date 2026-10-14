@@ -31,3 +31,15 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+
+# Code-only publication boundary
+Source_Data/
+local_results/
+*.csv
+*.tsv
+*.txt
+*.jps
+*.jpo
+*.zip
+*.jsonl
+.env*
