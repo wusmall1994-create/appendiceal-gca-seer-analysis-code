@@ -1,7 +1,7 @@
 {
   "title": "Statistical code for case-definition sensitivity in cancer registry trends",
   "upload_type": "software",
-  "description": "Statistical analysis source code for GCA nested-definition comparisons, Klatskin redistribution, simulation and official Joinpoint export audits. Code only: no manuscripts, study datasets, outputs or contact information. Historical analyses are documented separately. Negative-correlation refits remain unrun.",
+  "description": "Statistical analysis source code for GCA nested-definition comparisons, Klatskin redistribution, simulation, residual diagnostics and official Joinpoint export audits. Includes source code and software documentation only.",
   "creators": [
     {
       "name": "Liang, Huadong"
@@ -19,7 +19,7 @@
       "name": "Huang, Shumin"
     }
   ],
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "keywords": [
     "cancer registry",

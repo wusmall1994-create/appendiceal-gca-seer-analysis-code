@@ -1,10 +1,8 @@
 cff-version: 1.2.0
-doi: "10.5281/zenodo.23363462"
 message: "Please cite the archived software release."
 title: "Statistical code for case-definition sensitivity in cancer registry trends"
 type: software
-version: 1.2.0
-doi: "10.5281/zenodo.23363462"
+version: 1.2.1
 date-released: 2026-10-14
 license: MIT
 repository-code: "https://github.com/wusmall1994-create/appendiceal-gca-seer-analysis-code"

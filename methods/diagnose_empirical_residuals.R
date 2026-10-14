@@ -7,7 +7,7 @@ ps<-read.csv(file.path(src,'partial_redistribution_annual_series.csv'))
 gm<-rd('GCA_Official_Provenance/GCA_D1_D2_D3_Joinpoint.Export.Model.Estimates.txt')
 g1<-rd('Joinpoint_GCA_From2001.Export.Model.Estimates.txt')
 g1map<-read.csv(file.path(src,'GCA_From2001_Official_Summary.csv'),check.names=FALSE)
-pe<-rd('Joinpoint_Pending_Exports/Joinpoint_Partial_Redistribution.Export.Model.Estimates.txt')
+pe<-rd('Joinpoint_Exports/Joinpoint_Partial_Redistribution.Export.Model.Estimates.txt')
 inputs<-list();mods<-list();ii<-0L
 add<-function(id,label,z,m,group){
  ii<<-ii+1L; z<-z[order(z$year),];m<-m[order(m$Segment),]

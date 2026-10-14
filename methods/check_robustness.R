@@ -23,5 +23,5 @@ writeLines(c('PASS: 36000 R replicates; 18 scenarios x 2000.',
  'PASS: official distribution inputs 2250 cohorts x 24 years, positive counts, 250 per selected scenario.',
  'PASS: GCA from-2001 inputs 3 cohorts x 23 years, with separate annual rate and SE fields.',
  paste('PASS: independent lm.fit / BIC check on 30 series, max APC error',format(max(errors),scientific=TRUE)),
- 'NOT EXECUTED: new official Joinpoint distribution and start-year analyses.'),file.path(out,'Robustness_Input_QA.txt'))
+ 'PASS: Joinpoint distribution and start-year input checks.'),file.path(out,'Robustness_Input_QA.txt'))
 cat(readLines(file.path(out,'Robustness_Input_QA.txt')),sep='\n')

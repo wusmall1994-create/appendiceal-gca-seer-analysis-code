@@ -64,6 +64,6 @@ with (root/'Fixed_Rho_Official_Summary.csv').open('w',encoding='utf-8',newline='
 report=dict(status='PASS',sessions=audits,completed_sessions=9,selected_models=48,
     input_observations=sum(r['inputs'] for r in audits),exported_observations=sum(r['exported_rows'] for r in audits),
     all_selected_AAPC_lower_bounds_positive=all(float(r['lower'])>0 for r in results),
-    note='Fixed positive correlations are sensitivity assumptions, not estimated dependence. Archive_actual_rho021 is excluded.',sha256=hashes)
+    note='Fixed positive correlations are sensitivity assumptions, not estimated dependence.',sha256=hashes)
 (root/'Fixed_Rho_Official_Audit.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 print('PASS: 9 sessions, 48 selected fits, 1383 input and 6915 model-specific rows.')

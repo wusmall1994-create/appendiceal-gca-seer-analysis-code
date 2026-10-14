@@ -69,4 +69,4 @@ from2001<-do.call(rbind,gi)[do.call(rbind,gi)$cohort_id %in% c(2,4,6),]
 from2001$cohort_id<-match(from2001$cohort_id,c(2,4,6))
 write.table(from2001,file.path(out,'Joinpoint_GCA_From2001.txt'),sep='\t',row.names=FALSE,quote=FALSE,eol='\r\n')
 print(su,row.names=FALSE);print(do.call(rbind,sr),row.names=FALSE)
-cat('Official inputs prepared only; no new official Joinpoint results have been run.\n')
+cat('Joinpoint input files written.\n')

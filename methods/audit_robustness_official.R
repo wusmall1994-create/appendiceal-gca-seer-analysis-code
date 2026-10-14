@@ -31,4 +31,4 @@ writeLines(c('PASS: 2250 cohorts, 54000 input counts, 108000 exported observatio
 'PASS: same first 250 R replicates per scenario; nine scenarios, no failures/exclusions.',
 'PASS: three GCA cohorts, 69 input rows, 345 exported rows; rate/SE match export precision (0.005/0.00005).',
 'PASS: permutation seed 7160; run summaries retained. GCA 0-4 EmpQ5001 final-only; robustness 0-1 parametric.',
-'NOTE: R and official no-break slopes are distinct from selected-model AAPCs. New official inputs remain restricted to baseline 400.'),file.path(d,'Robustness_Official_Audit.txt'))
+'NOTE: R and official no-break slopes are distinct from selected-model AAPCs. Official comparisons use baseline 400.'),file.path(d,'Robustness_Official_Audit.txt'))

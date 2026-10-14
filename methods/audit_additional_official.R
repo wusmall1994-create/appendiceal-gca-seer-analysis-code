@@ -1,6 +1,6 @@
 args <- commandArgs(trailingOnly=TRUE)
 d <- if(length(args)) args[1] else 'Source_Data'
-e <- file.path(d,'Joinpoint_Pending_Exports')
+e <- file.path(d,'Joinpoint_Exports')
 rd <- function(prefix,suffix) read.delim(file.path(e,paste0(prefix,'.Export.',suffix,'.txt')),check.names=FALSE)
 p <- 'Additional_Controls_Official'
 s <- rd(p,'Final.Selected.Model'); aa <- rd(p,'AAPC'); obs <- rd(p,'Data'); me <- rd(p,'Model.Estimates')
